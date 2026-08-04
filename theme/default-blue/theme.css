@@ -1,0 +1,56 @@
+/* MicYou Default Blue Theme v1.0.0 */
+/* Load this file after the base theme variables. */
+
+:root,
+:root[class] {
+  --background: 215 15% 96%;
+  --foreground: 215 15% 25%;
+  --surface: 215 15% 98%;
+  --on-surface: 215 15% 25%;
+  --surface-bright: 215 15% 98%;
+  --surface-container: 215 15% 92%;
+  --surface-container-low: 215 15% 94%;
+  --surface-variant: 215 15% 88%;
+  --on-surface-variant: 215 15% 45%;
+  --outline: 215 15% 80%;
+  --border: 215 15% 80%;
+  --primary: 215 35% 55%;
+  --on-primary: 215 35% 92%;
+  --primary-container: 215 35% 85%;
+  --on-primary-container: 215 35% 25%;
+  --secondary: 215 20% 90%;
+  --on-secondary: 215 20% 25%;
+  --secondary-container: 215 20% 90%;
+  --on-secondary-container: 215 20% 25%;
+  --tertiary: 215 20% 90%;
+  --on-tertiary: 215 20% 25%;
+  --error: 0 40% 55%;
+  --on-error: 0 40% 92%;
+}
+
+:root.dark,
+html.dark[class] {
+  --background: 215 15% 8%;
+  --foreground: 215 15% 85%;
+  --surface: 215 15% 10%;
+  --on-surface: 215 15% 85%;
+  --surface-bright: 215 15% 14%;
+  --surface-container: 215 15% 16%;
+  --surface-container-low: 215 15% 12%;
+  --surface-variant: 215 15% 22%;
+  --on-surface-variant: 215 15% 60%;
+  --outline: 215 15% 20%;
+  --border: 215 15% 20%;
+  --primary: 215 35% 65%;
+  --on-primary: 215 35% 20%;
+  --primary-container: 215 35% 25%;
+  --on-primary-container: 215 35% 85%;
+  --secondary: 215 20% 16%;
+  --on-secondary: 215 20% 85%;
+  --secondary-container: 215 20% 16%;
+  --on-secondary-container: 215 20% 85%;
+  --tertiary: 215 20% 16%;
+  --on-tertiary: 215 20% 85%;
+  --error: 0 40% 65%;
+  --on-error: 0 40% 20%;
+}
