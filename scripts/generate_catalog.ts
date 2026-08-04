@@ -204,6 +204,10 @@ function renderReadme(themes: CatalogEntry[]): string {
 
   lines.push(
     "",
+    "## 贡献主题",
+    "",
+    "想要新增或修改主题，请先阅读 [`CONTRIBUTING.md`](CONTRIBUTING.md)。",
+    "",
     "## 生成",
     "",
     "修改或新增主题后，在仓库根目录执行：",

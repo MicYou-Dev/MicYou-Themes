@@ -33,6 +33,10 @@ MicYou 的主题目录与主题包仓库。
 | ![Neon Pulse](theme/neon-pluse/preview.png) | `neon-pulse` | Neon Pulse | 霓虹青、品红与酸性绿构成的实验性赛博主题。 | 0.1.0 | MicYou | 接管主题色 |
 | ![Square Corners](theme/square-corners/preview.png) | `square-corners` | Square Corners | 实验性直角界面主题，只调整形状，不接管主题色。 | 0.1.0 | MicYou | 不接管主题色 |
 
+## 贡献主题
+
+想要新增或修改主题，请先阅读 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
+
 ## 生成
 
 修改或新增主题后，在仓库根目录执行：
