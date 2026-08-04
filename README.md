@@ -2,32 +2,25 @@
 
 MicYou 的主题目录与主题包仓库。
 
-## 目录文件
+## 仓库结构
 
-仓库根目录的 `index.json` 是主题目录入口：
-
-```json
-{
-  "version": 1,
-  "themes": []
-}
+```text
+/
+├── index.json                 # 收录所有主题
+└── theme/
+    └── <theme-id>/
+        ├── manifest.json      # 主题元数据
+        ├── theme.css          # 主题样式
+        ├── preview.png        # 可选预览图
+        └── theme.ts           # 可选脚本，当前不执行
 ```
 
-每个主题条目支持以下字段：
+根目录 `index.json` 收录主题清单。每个主题目录至少包含 `manifest.json` 和 CSS 入口文件；预览图和 TypeScript 脚本是可选的。
 
-- `id`：主题唯一标识
-- `name`：主题名称
-- `version`：主题版本
-- `author`：作者
-- `description`：主题描述
-- `preview`：预览图地址（可选）
-- `entry`：主题入口文件（可选）
-- `minAppVersion`：最低支持的 MicYou 版本（可选）
-- `resourceUrl`：主题资源地址（可选）
-- `hasScript`：是否包含脚本（可选）
+## 当前主题
+
+- `default-blue`：MicYou 默认蓝色主题，包含浅色和深色 Material 3 变量。
 
 ## 安全说明
 
-主题包未来可以包含 JSON 和 CSS。当前 MicYou 桌面端不会联网读取、下载或执行主题商城内容。
-
-如果未来支持包含 TypeScript 的主题包，启用前必须经过用户明确确认。
+当前 MicYou 桌面端不会联网读取、下载或执行主题商城内容。未来如果支持包含 TypeScript 的主题包，启用前必须经过用户明确确认。
