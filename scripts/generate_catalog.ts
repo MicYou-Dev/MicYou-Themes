@@ -182,16 +182,22 @@ function renderReadme(themes: CatalogEntry[]): string {
     "",
     "## 当前主题",
     "",
+    "| 预览 | ID | 名称 | 描述 | 版本 | 作者 | 主题色 |",
+    "| --- | --- | --- | --- | --- | --- | --- |",
   ];
 
   if (themes.length === 0) {
-    lines.push("暂无主题。");
+    lines.push("| — | — | — | 暂无主题 | — | — | — |");
   } else {
     for (const theme of themes) {
       const colorNote =
         theme.controlsThemeColor === false ? "不接管主题色" : "接管主题色";
+      const preview =
+        typeof theme.preview === "string"
+          ? `![${markdownText(theme.name as string)}](${theme.resourceUrl}/${theme.preview})`
+          : "—";
       lines.push(
-        `- \`${theme.id}\`：${markdownText(theme.description as string)}（${colorNote}。）`,
+        `| ${preview} | \`${theme.id}\` | ${markdownText(theme.name as string)} | ${markdownText(theme.description as string)} | ${markdownText(theme.version as string)} | ${markdownText(theme.author as string)} | ${colorNote} |`,
       );
     }
   }
