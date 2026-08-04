@@ -1,1 +1,17 @@
-{"version":1,"themes":[]}
+{
+  "version": 1,
+  "themes": [
+    {
+      "id": "default-blue",
+      "name": "Default Blue",
+      "version": "1.0.0",
+      "author": "MicYou",
+      "description": "MicYou 的默认蓝色主题，提供浅色和深色 Material 3 主题变量。",
+      "preview": "preview.png",
+      "entry": "theme.css",
+      "minAppVersion": "2.0.0-alpha1",
+      "resourceUrl": "theme/default-blue",
+      "hasScript": false
+    }
+  ]
+}
