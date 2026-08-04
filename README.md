@@ -27,9 +27,11 @@ MicYou 的主题目录与主题包仓库。
 
 ## 当前主题
 
-- `default-blue`：MicYou 的默认蓝色主题，提供浅色和深色 Material 3 主题变量。（接管主题色。）
-- `neon-pulse`：霓虹青、品红与酸性绿构成的实验性赛博主题。（接管主题色。）
-- `square-corners`：实验性直角界面主题，只调整形状，不接管主题色。（不接管主题色。）
+| 预览 | ID | 名称 | 描述 | 版本 | 作者 | 主题色 |
+| --- | --- | --- | --- | --- | --- | --- |
+| ![Default Blue](theme/default-blue/preview.png) | `default-blue` | Default Blue | MicYou 的默认蓝色主题，提供浅色和深色 Material 3 主题变量。 | 1.0.0 | MicYou | 接管主题色 |
+| ![Neon Pulse](theme/neon-pluse/preview.png) | `neon-pulse` | Neon Pulse | 霓虹青、品红与酸性绿构成的实验性赛博主题。 | 0.1.0 | MicYou | 接管主题色 |
+| ![Square Corners](theme/square-corners/preview.png) | `square-corners` | Square Corners | 实验性直角界面主题，只调整形状，不接管主题色。 | 0.1.0 | MicYou | 不接管主题色 |
 
 ## 生成
 
