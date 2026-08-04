@@ -1,0 +1,16 @@
+{
+  "name": "micyou-themes",
+  "private": true,
+  "type": "module",
+  "packageManager": "bun@1.3.14",
+  "scripts": {
+    "generate": "bun scripts/generate_catalog.ts",
+    "generate:check": "bun scripts/generate_catalog.ts --check",
+    "format": "biome check --write .",
+    "lint": "biome check .",
+    "check": "bun run generate:check && biome check ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.6"
+  }
+}

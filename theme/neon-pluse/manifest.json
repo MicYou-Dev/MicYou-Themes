@@ -1,0 +1,11 @@
+{
+    "id": "neon-pulse",
+    "name": "Neon Pulse",
+    "version": "0.1.0",
+    "author": "MicYou",
+    "description": "霓虹青、品红与酸性绿构成的实验性赛博主题。",
+    "entry": "theme.css",
+    "preview": "preview.png",
+    "minAppVersion": "2.0.0-alpha1",
+    "controlsThemeColor": true
+}

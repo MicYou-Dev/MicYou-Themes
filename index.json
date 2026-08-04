@@ -13,6 +13,18 @@
       "resourceUrl": "theme/default-blue"
     },
     {
+      "id": "neon-pulse",
+      "name": "Neon Pulse",
+      "version": "0.1.0",
+      "author": "MicYou",
+      "description": "霓虹青、品红与酸性绿构成的实验性赛博主题。",
+      "entry": "theme.css",
+      "preview": "preview.png",
+      "minAppVersion": "2.0.0-alpha1",
+      "controlsThemeColor": true,
+      "resourceUrl": "theme/neon-pluse"
+    },
+    {
       "id": "square-corners",
       "name": "Square Corners",
       "version": "0.1.0",
@@ -21,8 +33,8 @@
       "preview": "preview.png",
       "entry": "theme.css",
       "minAppVersion": "2.0.0-alpha1",
-      "resourceUrl": "theme/square-corners",
-      "controlsThemeColor": false
+      "controlsThemeColor": false,
+      "resourceUrl": "theme/square-corners"
     }
   ]
 }
