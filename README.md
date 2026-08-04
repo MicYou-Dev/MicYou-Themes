@@ -1,2 +1,1 @@
-# MicYou-Themes
-Theme catalog and theme packages for MicYou
+# MicYou Themes\n\nThis repository is reserved for the MicYou theme catalog and theme packages.\n\n## Catalog\n\nThe repository root `index.json` follows the catalog contract reserved by the desktop app:\n\n```json\n{\n  "version": 1,\n  "themes": []\n}\n```\n\nTheme packages may later provide JSON tokens and CSS. Theme scripts are not executed by the current desktop app; any future scripted package must require explicit user confirmation.\n\n## Package manifest\n\nEach catalog entry supports:\n\n- `id`, `name`, `version`, `author`, `description`\n- optional `preview`, `entry`, `minAppVersion`, `resourceUrl`, `hasScript`\n
