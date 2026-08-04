@@ -11,11 +11,10 @@ MicYou 的主题目录与主题包仓库。
     └── <theme-id>/
         ├── manifest.json      # 主题元数据
         ├── theme.css          # 主题样式
-        ├── preview.png        # 可选预览图
-        └── theme.ts           # 可选脚本，当前不执行
+        └── preview.png        # 可选预览图
 ```
 
-根目录 `index.json` 收录主题清单。每个主题目录至少包含 `manifest.json` 和 CSS 入口文件；预览图和 TypeScript 脚本是可选的。
+根目录 `index.json` 收录主题清单。每个主题目录至少包含 `manifest.json` 和 CSS 入口文件，预览图是可选的。
 
 主题清单中的 `controlsThemeColor` 用于声明主题是否接管 MicYou 的主题色生成器：
 
@@ -29,4 +28,4 @@ MicYou 的主题目录与主题包仓库。
 
 ## 安全说明
 
-当前 MicYou 桌面端不会联网执行主题 TypeScript。安装主题时只下载清单和 CSS，CSS 会在独立的主题包样式节点中应用；未来如果支持包含 TypeScript 的主题包，启用前必须经过用户明确确认。
+安装主题时只下载清单和 CSS，CSS 会在独立的主题包样式节点中应用。主题包不支持脚本，仓库中的主题内容不会执行任意代码。
