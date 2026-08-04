@@ -1,0 +1,12 @@
+{
+  "id": "square-corners",
+  "name": "Square Corners",
+  "version": "0.1.0",
+  "author": "MicYou",
+  "description": "实验性直角界面主题，只调整形状，不接管主题色。",
+  "preview": "preview.png",
+  "entry": "theme.css",
+  "minAppVersion": "2.0.0-alpha1",
+  "hasScript": false,
+  "controlsThemeColor": false
+}
