@@ -10,8 +10,7 @@
       "preview": "preview.png",
       "entry": "theme.css",
       "minAppVersion": "2.0.0-alpha1",
-      "resourceUrl": "theme/default-blue",
-      "hasScript": false
+      "resourceUrl": "theme/default-blue"
     },
     {
       "id": "square-corners",
@@ -23,7 +22,6 @@
       "entry": "theme.css",
       "minAppVersion": "2.0.0-alpha1",
       "resourceUrl": "theme/square-corners",
-      "hasScript": false,
       "controlsThemeColor": false
     }
   ]
