@@ -7,6 +7,5 @@
   "preview": "preview.png",
   "entry": "theme.css",
   "minAppVersion": "2.0.0-alpha1",
-  "hasScript": false,
   "controlsThemeColor": false
 }
