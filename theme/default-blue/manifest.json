@@ -6,6 +6,5 @@
   "description": "MicYou 的默认蓝色主题，提供浅色和深色 Material 3 主题变量。",
   "preview": "preview.png",
   "entry": "theme.css",
-  "minAppVersion": "2.0.0-alpha1",
-  "hasScript": false
+  "minAppVersion": "2.0.0-alpha1"
 }
